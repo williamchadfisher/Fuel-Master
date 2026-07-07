@@ -1,5 +1,5 @@
 """
-JCB 215 NXT FUEL MASTER — Live Fleet Fuel Savings
+JCB 215 NXT FUEL MASTER — Real time fuel savings of SE Asia NXT fleet
 Deploy: push to GitHub with requirements.txt, then share via Streamlit Community Cloud.
 """
 
@@ -11,7 +11,7 @@ import streamlit as st
 # ----------------------------- config -----------------------------
 
 st.set_page_config(
-    page_title="JCB 215 NXT Fuel Master — Fleet Savings",
+    page_title="JCB 215 NXT Fuel Master — SE Asia Fleet Real Time Savings",
     page_icon="🟡",
     layout="wide",
 )
@@ -124,10 +124,10 @@ lifetime_usd = lifetime_litres * diesel_price
 # ----------------------------- layout -----------------------------
 
 st.markdown('<div class="fm-eyebrow">JCB 215 NXT Fuel Master · Live</div>', unsafe_allow_html=True)
-st.title("Fuel Master. Do more for less.")
+st.title("Fuel Master. Make every Dollar count.")
 st.markdown(
-    '<p class="fm-note">JCB Inteli control ensures the best work done to fuel used ratio — '
-    "saving 3.0 L/hr against the standard-cycle baseline, across every Fuel Master at work.</p>",
+    '<p class="fm-note">JCB Fuelmaster tech ensures the best work done to fuel used ratio — '
+    "saving on average 3.0 L/hr against other brands, across every JCB NXT Excavator at work.</p>",
     unsafe_allow_html=True,
 )
 
@@ -193,7 +193,7 @@ for i, (name, _, ccy, symbol, decimals, _) in enumerate(COUNTRIES):
 
 st.markdown('<div class="fm-pillars">Tough &nbsp;·&nbsp; Efficient &nbsp;·&nbsp; Connected</div>', unsafe_allow_html=True)
 st.markdown(
-    '<p class="fm-note" style="text-align:center">Fleet counts from Asia serial-number distribution. '
+    '<p class="fm-note" style="text-align:center">Sales history since 2022. '
     "Diesel prices and FX rates are editable assumptions in the sidebar, not live market feeds.</p>",
     unsafe_allow_html=True,
 )

@@ -126,7 +126,7 @@ lifetime_usd = lifetime_litres * diesel_price
 st.markdown('<div class="fm-eyebrow">JCB 215 NXT Fuel Master · Live</div>', unsafe_allow_html=True)
 st.title("Fuel Master. Make every Dollar count.")
 st.markdown(
-    '<p class="fm-note">JCB Fuelmaster tech ensures the best work done to fuel used ratio — '
+    '<p class="fm-note">JCB Fuelmaster tech ensures fuel saving in the toughest job sites. — '
     "saving on average 3.0 L/hr against other brands, across every JCB NXT Excavator at work.</p>",
     unsafe_allow_html=True,
 )
@@ -158,8 +158,8 @@ with col2:
     )
 
 st.markdown(
-    f'<p class="fm-note">Lifetime figure assumes fleet sales ramped linearly from 0 units on the start date '
-    f"to today's {fleet_units} units, each running {hours_per_day:g} hrs/day since its estimated sale date.</p>",
+    f'<p class="fm-note">Lifetime figure includes NXT Excavator sales ramp up since January 2022. '
+    f"to today's {fleet_units} units, each running {hours_per_day:g} hrs/day since its sale date.</p>",
     unsafe_allow_html=True,
 )
 
